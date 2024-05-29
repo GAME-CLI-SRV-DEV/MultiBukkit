@@ -2,19 +2,18 @@
 Minestom Server Software with NogyangSpigot, Sponge, Rainbow API, ViaVersion, Geyser. (NOTE: Some Bukkit, Sponge, Rainbow Plugins May Not Work. you can replace them with Minestom Extension.)                                                                                                                                           
  This Bukkit Supports IPv6-IPv4, Geyser Implementation. which means Multiple Players from java and Bedrock.
  This Bukkit Is Also MultiVersion!                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
-## 주 기능
-Geyser 완벽 지원
-IPv6-IPv4 DualStackNAT
-Bukkit, Sponge, Rainbow 지원(과반수의 Bukkit, Sponge, Rainbow 플러그인이 Minestom을 사용하지 않으며 작동할 확률이 낮음.)
-## 서버 작동
-서버를 작동시키려면 다음과 같은 커맨드를 입력하세요.
+## Major Functions
+Geyser Support
+IPv6-IPv4 DualStackNAT Support
+Bukkit, Sponge, Rainbow Support(NOTE: Bukkit Plugins or Sponge Plugins will run in low possiblilty.)
+## Run
+run the server with
 java -jar MultiNet-Bukkit-1.20.6-R0.1-SNAPSHOT-Sponge-11.0.0-Rainbow-1.20.6-Geyser-2.3.1-SNAPSHOT-Floodgate-2.2.3-SNAPSHOT-ViaVersion-4.10.2-SNAPSHOT-Rewind-Backwards-all.jar
-그러면 다음과 같은 문구들이 로그에 출력되게 됩니다.
 ```
-MultiNet을 시작하는 중...
-18:38 : [MultiNet] MultiNet 버전 Alpha 시작
-18:38 : 공유기 사용 중입니다. 서버 포트가 공유기를 통해 전달되어야 합니다.
-18:38 : IPv6를 사용하는 경우 NAT 듀얼스택으로 포트포워딩됩니다.
+Starting MultiNet...
+18:38 : [MultiNet] Starting MultiNet Alpha 
+18:38 : Router Detected. Forward the port  on LAN to Router.
+18:38 : if you are using IPv6, DualStack will be automaticly be used
 18:38 : [MultiNetCMD] [SET] [MultiNet/Server] Loading Settings
 18:38 : [MultiNetCMD] [IP] [MultiNet/IP] Opening server on Router IP: IPv4 12.34.56.78:25565/19132, IPv6 [1234:5678:90ab:cdef:1234:5678:90ab:cdef]:25566/19133
 18:38 : [MultiNetCMD] [IP] [MultiNet/IP] Opening Server on LAN IP: IPv4 192.168.219.69:25565/19132, IPv6 [2001:db8:5678:534d:5254:534d:53c]:25566/19133
@@ -68,6 +67,6 @@ to end your server, use command end
 18:42 : [MultiNetCMD] [INFO] [Geyser/INFO] Geyser succesfully shutted down.
 18:42 : [MultiNetCMD] [INFO] [Bukkit/INFO] [ExamplePlugin] Disabling Server Plugin ExamplePlugin v.1.0.1
 18:42 : [MultiNetCMD] [INFO] [Bukkit/INFO] [ExamplePlugin] DED
-18:42 : [MultiNetCMD] [END] 이제 MultiNetCMD 창을 닫으셔도 됩니다.
+18:42 : [MultiNetCMD] [END] it is now safe to close MultiNetCMD Window.
 ```
 
