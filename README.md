@@ -1,4 +1,4 @@
-# NogyangSpigotMultiBukkit
+# 멀티넷
 Minestom Server Software with NogyangSpigot, Sponge, Rainbow API, ViaVersion, Geyser. (NOTE: Some Sponge Plugins May Not Work. )                                                                                                                                           
  This Bukkit Supports IPv6-IPv4, Geyser Implementation. which means Multiple Players from java and Bedrock.
  This Bukkit Is Also MultiVersion!                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
