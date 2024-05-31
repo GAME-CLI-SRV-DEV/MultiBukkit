@@ -8,12 +8,11 @@ Minestom Server Software with NogyangSpigot, Sponge, Rainbow API, ViaVersion, Ge
 이 버킷이 나오게 됨으로써 Bukstom을 대체하며 NogyangSpigot팀 최초로 nms에 의존하지 않는 Multi-CraftBukkit, 일명 MultiBukkit입니다.
 공식적인 이름은 멀티넷입니다.
 ## 주 기능
-Geyser 완벽 지원
+Geyser 지원 준비 중
 IPv6-IPv4 듀얼스택
 Bukkit, Sponge, Rainbow 지원(과반수의 Bukkit, Sponge, Rainbow 플러그인이 Minestom을 사용하지 않으며 작동할 확률이 낮음.)
 ## 서버 작동
 서버를 작동시키려면 다음과 같은 커맨드를 입력하세요.
-java -jar MultiNet-Bukkit-1.20.6-R0.1-SNAPSHOT-Sponge-11.0.0-Rainbow-1.20.6-Geyser-2.3.1-SNAPSHOT-Floodgate-2.2.3-SNAPSHOT-ViaVersion-4.10.2-SNAPSHOT-Rewind-Backwards-all.jar
 그러면 다음과 같은 문구들이 로그에 출력되게 됩니다.
 ```
 MultiNet을 시작하는 중...
