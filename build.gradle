@@ -8,7 +8,11 @@ version = '1.20.6-alpha'
 dependencies {
     implementation 'com.github.Minestom:Minestom:1c7fc6c12e'
     implementation 'kr.ms.nogyang.nogyangspigot:NogyangSpigot-api:1.20.6-R0.1-SNAPSHOT'
-
+    implementation group: 'io.netty.incubator',
+                  name: 'netty-incubator-transport-native-io_uring',
+                  version: '0.0.25.Final-SNAPSHOT',
+                  classifier: 'linux-aarch_64',
+                  ext: 'jar'
 }
 
 
