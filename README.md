@@ -7,6 +7,14 @@ Minestom Server Software with NogyangSpigot, Sponge, Rainbow API, ViaVersion, Ge
 이 버킷은 버킷, 스펀지, 레인보우 API, IPv6-IPv4 듀얼스택을 동시 구현하기 위한 실험적 멀티-쓰레드형 버킷입니다.                               
 이 버킷이 나오게 됨으로써 Bukstom을 대체하며 NogyangSpigot팀 최초로 nms에 의존하지 않는 Multi-CraftBukkit, 일명 MultiBukkit입니다.
 공식적인 이름은 멀티넷입니다.
+## 공지
+> [!CAUTION]
+> TECHNICAL DIFFICULTIES
+> 멀티넷이 GeyserMC 코어 파일을 사용하려고 하지만 Netty 문제로 인하여 GeyserMC를 사용할 수 없습니다.
+> 이로 인해 Bedrock Player는 서버에서 IPv6가 구축된 경우 서버에 접속이 불가능한 사태가 벌어질 것으로 예상됩니다.
+> 이번 동안만 GeyserMC의 마인크래프트 서버 프록시 버전을 사용하여주십시오.
+> 이 저장소는 직접 Commit 방식을 사용하여, 자신이 원하는 경우 문제를 해결할 수 있습니다. 문제를 해결하고 싶은 경우, 언제든 commit을 하실 수 있습니다.
+> TECHNICAL DIFFICULTIES
 ## 주 기능
 Geyser 지원 준비 중
 IPv6-IPv4 듀얼스택
