@@ -7,6 +7,14 @@ Minestom Server Software with NogyangSpigot, Sponge, Rainbow API, ViaVersion, Ge
 이 버킷은 버킷, 스펀지, 레인보우 API, IPv6-IPv4 듀얼스택을 동시 구현하기 위한 실험적 멀티-쓰레드형 버킷입니다.                               
 이 버킷이 나오게 됨으로써 Bukstom을 대체하며 NogyangSpigot팀 최초로 nms에 의존하지 않는 Multi-CraftBukkit, 일명 MultiBukkit입니다.
 공식적인 이름은 멀티넷입니다.
+## 빌드 일람
+```
+MultiNet MultiBukkit
+-------------------------------------------------------------------------------
+빌드번호 마인스톰 버전 Netty 버전 브랜치                 여부
+ALPHA-1  1c7fc6c12e  4.1.Final  master 6월 1일 주도 개발자에 의해 릴리즈로 유출됨
+-------------------------------------------------------------------------------
+```
 ## 공지
 > [!CAUTION]
 > TECHNICAL DIFFICULTIES
