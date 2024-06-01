@@ -16,7 +16,8 @@ import org.slf4j.LoggerFactory;
 public class start {
     public static final Logger logger = LoggerFactory.getLogger(Main.class);
     public void what() {
-        logger.info(translationmanager.translate("multinet.loading"));
+        System.out.println("loading...")
+        logger.info("loading...");
         config config = new config();
         logger.info("");
         // Initialization
