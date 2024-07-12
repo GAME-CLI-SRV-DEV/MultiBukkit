@@ -3,16 +3,13 @@ plugins {
 }
 
 group = 'org.MultiNet.Multibukkit'
-version = '1.20.6-alpha'
+spongeversion = '12.0.0-SNAPSHOT'
+bukkitversion = '1.20.6-R0.1-SNAPSHOT'
 
 dependencies {
-    implementation 'com.github.Minestom:Minestom:1c7fc6c12e'
-    implementation 'kr.ms.nogyang.nogyangspigot:NogyangSpigot-api:1.20.6-R0.1-SNAPSHOT'
-    implementation group: 'io.netty.incubator',
-                  name: 'netty-incubator-transport-native-io_uring',
-                  version: '0.0.25.Final-SNAPSHOT',
-                  classifier: 'linux-aarch_64',
-                  ext: 'jar'
+    implementation 'com.github.Minestom:Minestom:79716ab749'
+    implementation 'io.papermc.paper:paper-api:${project.bukkitversion}'
+    implementation 'org.spongepowered.spongeapi:${project.spongeversion}'
 }
 
 
