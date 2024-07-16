@@ -3,6 +3,7 @@ plugins {
 }
 
 group = 'org.MultiNet.Multibukkit'
+version = '${project.bukkitversion}-SPONGE-${project.spongeversion}'
 spongeversion = '12.0.0-SNAPSHOT'
 bukkitversion = '1.20.6-R0.1-SNAPSHOT'
 
