@@ -17,6 +17,8 @@ jobs:
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
     - name: Build with Gradle
+      run: cd MultiBukkit
+    - name: Build with Gradle
       run: ./gradlew shadowjar
     - name: Upload Artifacts
       uses: actions/upload-artifact@v4
