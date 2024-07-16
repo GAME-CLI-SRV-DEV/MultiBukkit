@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory;
 public class start {
     public static final Logger logger = LoggerFactory.getLogger(Main.class);
     public void what() {
-        System.out.println("loading...")
+        System.out.println("loading MultiBukkit. Please Wait...");
         logger.info("loading...");
         config config = new config();
         logger.info("");
