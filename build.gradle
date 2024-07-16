@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id "io.github.goooler.shadow" version "8.1.7"
 }
 
 group = 'org.MultiNet.Multibukkit'
@@ -18,4 +19,11 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+jar {
+    manifest {
+        // Change this to your main class
+        attributes 'Main-Class': 'org.MultiNet.Multibukkit.main'
+    }
 }
