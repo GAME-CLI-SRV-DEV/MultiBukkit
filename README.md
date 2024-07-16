@@ -29,6 +29,7 @@ ALPHA-1  1c7fc6c12e  4.1.Final  master 6월 1일 주도 개발자에 의해 릴�
 ## 주 기능
 IPv6-IPv4 듀얼스택
 Bukkit, Sponge, Rainbow 지원(과반수의 Bukkit, Sponge, Rainbow 플러그인이 Minestom을 사용하지 않으며 작동할 확률이 낮음.)
+바닐라 마인크래프트 주력
 ## 서버 작동
 서버를 작동시키려면 다음과 같은 커맨드를 입력하세요.
 ```
