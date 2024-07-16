@@ -10,6 +10,11 @@ Minestom Server Software with Paper, Sponge, Rainbow API, ViaVersion, Floodgate.
 공식적인 이름은 멀티넷 멀티버킷입니다. 
 멀티넷 멀티버킷은 현재 진행 중입니다.
 
+
+### 장점
+마인스톰에 Bukkit API, Sponge API가 얹어져 있음
+바닐라 마인크래프트를 주력으로 함
+
 ## 빌드 일람
 ```
 MultiNet MultiBukkit
