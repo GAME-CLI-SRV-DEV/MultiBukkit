@@ -11,8 +11,8 @@ version = '${project.bukkitversion}-SPONGE-${project.spongeversion}'
 
 dependencies {
     implementation 'com.github.Minestom:Minestom:79716ab749'
-    implementation 'io.papermc.paper:paper-api' + bukkitversion
-    implementation 'org.spongepowered:spongeapi' + spongeversion
+    implementation 'io.papermc.paper:paper-api:' + bukkitversion
+    implementation 'org.spongepowered:spongeapi:' + spongeversion
 }
 
 
