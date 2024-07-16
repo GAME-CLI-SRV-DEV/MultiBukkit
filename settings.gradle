@@ -6,7 +6,6 @@ dependencyResolutionManagement {
 
         maven { url 'https://repo1.maven.org/maven2'}
         maven { url 'https://jitpack.io' }
-        maven { url 'https://raw.githubusercontent.com/GAME-CLI-SRV-DEV/NogyangSpigot-Terminals-Repos/main/snapshots/' }
         maven { url 'https://repo.papermc.io/repository/maven-releases/' }
         maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
 
