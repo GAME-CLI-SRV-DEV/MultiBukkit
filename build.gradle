@@ -6,7 +6,7 @@ plugins {
 ext.bukkitversion = '1.21-R0.1-SNAPSHOT'
 ext.spongeversion = '12.0.0-SNAPSHOT'
 group = 'org.MultiNet.Multibukkit'
-version = '${project.bukkitversion}-SPONGE-${project.spongeversion}'
+version = bukkitversion + '-SPONGE-' + spongeversion
 
 
 dependencies {
