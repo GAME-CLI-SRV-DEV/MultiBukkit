@@ -27,7 +27,7 @@ MultiNet MultiBukkit
 빌드번호 마인스톰 버전 브랜치                 여부
 ALPHA-1  1c7fc6c12e  master 6월 1일 주도 개발자에 의해 릴리즈로 유출됨
 -------------------------------------------------------------------------------
-누리버킷
+누리서버
 com.ddnsgeek.approximasterstudios2004.nuribukkit
 org.bukkit.craftbukkit
 net.minestom.server
