@@ -18,19 +18,17 @@ import org.slf4j.LoggerFactory;
 import java.io.file
     
 public class start {
-    private static final MinestomServer server = new MinestomServer();
+    private static final MultiServer server = new MultiServer();
 
     public static final Logger logger = LoggerFactory.getLogger(Main.class);
     public void what() {
-        System.out.println("loading MultiBukkit. Please Wait...");
-        logger.info("loading...");
-        
+        System.out.println("멀티버킷 알파 불러오는 중. (바닐라 월드가 준비가 되지 않아 평면 상태로 월드를 생성합니다.)");
         config config = new config();
-        System.out.println("Loading Bukkit Plugins...")
+        System.out.println("플러그인 불러오는 중...")
             Bukkit.setServer(server);
             server.loadPlugins();
         // Initialization
-        System.out.println(Enabling Bukkit.);
+        System.out.println("플러그인 활성화 단계 준비");
         server.enablePlugins(PluginLoadOrder.STARTUP);
         MinecraftServer minecraftServer = MinecraftServer.init();
         InstanceManager instanceManager = MinecraftServer.getInstanceManager();
@@ -46,9 +44,10 @@ public class start {
             event.setSpawningInstance(instanceContainer);
             player.setRespawnPoint(new Pos(0, 42, 0));
         });
-
-        
-        minecraftServer.start( "0.0.0.0", config.port);
+        System.out.println("서버를 시작합니다.");
+        minecraftServer.start("0.0.0.0", config.port);
+        System.out.println("월드 플러그인 활성화 단계 준비")
         server.enablePlugins(PluginLoadOrder.POSTWORLD);
+        System.out.println("시작!")
     }
 }
