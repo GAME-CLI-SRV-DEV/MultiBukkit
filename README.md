@@ -17,7 +17,7 @@ Minestom Server Software with Paper, Sponge, Rainbow API, ViaVersion, Floodgate.
 
 
 ### 장점
-마인스톰에 Bukkit API, Sponge API가 얹어져 있음
+마인스톰에 Bukkit API가 얹어져 있음\
 바닐라 마인크래프트를 주력으로 함
 
 ## 빌드 일람
